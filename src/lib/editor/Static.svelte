@@ -92,18 +92,6 @@
 <div class="loading relative" data-editor="true">
 	<div bind:this={element} on:keydown|capture={handleKeydown} />
 	<Slash {selectedIndex} {element} />
-
-	<hr />
-
-	<button
-		on:click={() => {
-			json = $content_editor.getJSON();
-		}}>Get JSON</button
-	>
-	<br /><br />
-	<div class="max-w-lg m-auto">
-		{JSON.stringify(json)}
-	</div>
 </div>
 
 <style>
