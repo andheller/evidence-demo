@@ -166,7 +166,7 @@
 							</div>
 							<div class="py-6">
 								<a
-									href="#"
+									href="/login"
 									class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-slate-900 hover:bg-slate-400/10"
 									>Log in</a
 								>
@@ -186,7 +186,11 @@
 							class="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-slate-900/10 hover:ring-slate-900/20"
 						>
 							<span class="text-slate-600">
-								See demo source code on <a href="#" class="font-semibold text-blue-600"
+								See demo source code on <a
+									href="https://github.com/andheller/evidence-demo"
+									class="font-semibold text-blue-600"
+									rel="noreferrer"
+									target="_blank"
 									><span class="absolute inset-0" aria-hidden="true" />GitHub
 									<span aria-hidden="true">&rarr;</span></a
 								>

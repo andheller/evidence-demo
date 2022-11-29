@@ -81,7 +81,8 @@
 
 <style>
 	:global(img[title='logo']) {
-		max-width: 330px;
+		max-width: 100%;
+		width: 330px;
 		margin: 0 auto;
 	}
 </style>
